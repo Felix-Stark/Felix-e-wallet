@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+* {
+  font-family: 'PT Mono';
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 2rem;
+}
+h4 {
+    margin: 0px;
+    font-size: .75rem;
+    color: #000000CC;
+    text-align: center;
+}
+.new__card--button {
+  position: absolute;
+  bottom: 0px;
+}

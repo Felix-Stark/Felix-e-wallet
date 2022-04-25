@@ -1,0 +1,38 @@
+.AddCard {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    'header', 
+    'mock__card', 
+    'card__form', 
+    'add__card--button'
+}
+
+header {
+    grid-area: header;
+    grid-column: 1;
+    grid-row: 1;
+}
+.mock__card {
+    grid-area: active__card;
+    grid-column: 1;
+    grid-row: 2;
+    margin-bottom: 3rem;
+}
+.card__form {
+    grid-area: card__stack;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.add__card--button {
+    grid-area: new__card;
+    grid-column: 1;
+    grid-row: 4;
+    margin: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}

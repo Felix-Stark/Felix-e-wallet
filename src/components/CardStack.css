@@ -1,0 +1,21 @@
+.card__stack {
+    display: grid;
+    grid-auto-rows: 2.5rem;
+  }
+  
+  
+  .card__stack.card:nth-child(1) {
+     background-color: #FFAE34;
+  }
+  
+  .card__stack.card:nth-child(2) {
+     background-color: #222222;
+  }
+  
+  .card:nth-child(3) {
+     background-color: #8B58F9;
+  }
+  
+  .card:nth-child(4) {
+     background-color: #F33355;
+  }

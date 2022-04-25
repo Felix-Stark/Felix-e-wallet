@@ -1,0 +1,37 @@
+.Home {
+    width: 100%;
+    margin: 0 auto;
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: min-content;
+    grid-template-areas: 
+    'header', 
+    'active__card', 
+    'card__stack'
+
+}
+
+header {
+    grid-area: header;
+    grid-column: 1;
+    grid-row: 1/2;
+}
+.active__card {
+    height: max-content;
+    grid-area: active__card;
+    grid-column: 1;
+    grid-row: 2 / span 1;
+}
+.card__stack {
+    grid-area: card__stack;
+    grid-column: 1;
+    grid-row: 3 / span 2;
+}
+
+.new__card--button {
+    margin: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
